@@ -1,0 +1,21 @@
+{
+  "tenure": 41,
+  "monthlycharges": 79.85,
+  "totalcharges": 3320.75,
+  "gender": 'female',
+  "seniorcitizen": 0,
+  "partner": "no",
+  "dependents": "no",
+  "phoneservice": "yes",
+  "multiplelines": "no",
+  "internetservice": "dsl",
+  "onlinesecurity": "yes",
+  "onlinebackup": "no",
+  "deviceprotection": "yes",
+  "techsupport": "yes",
+  "streamingtv": "yes",
+  "streamingmovies": "yes",
+  "contract": "one_year",
+  "paperlessbilling": "yes",
+  "paymentmethod": "bank_transfer_(automatic)"
+}

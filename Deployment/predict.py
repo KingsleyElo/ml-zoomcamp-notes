@@ -13,8 +13,11 @@ with open (input_file, 'rb') as f_in:
 app = Flask('Customer Churn')
 
 @app.route('/predict', methods=['POST'])
-def predict(customer):
+def predict():
     customer = request.get_json()
+    customer = [customer]
+    customer = pd.DataFrame(customer)
+    
     y_pred = model.predict_proba(customer)[0, 1]
     churn = y_pred >= 0.5
 

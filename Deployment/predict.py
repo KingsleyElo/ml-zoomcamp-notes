@@ -1,9 +1,7 @@
 import pickle
 from transformers import df_to_dict
 import pandas as pd
-from flask import Flask
-from flask import request
-from flask import jsonify
+from flask import Flask, request, jsonify
 
 input_file = 'model_C=1.bin'
 

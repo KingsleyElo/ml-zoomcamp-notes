@@ -12,6 +12,7 @@ waitress = "*"
 
 [dev-packages]
 ipykernel = "*"
+awsebcli = "*"
 
 [requires]
 python_version = "3.14"

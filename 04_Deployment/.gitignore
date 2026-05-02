@@ -15,8 +15,6 @@ __pycache__/
 # data file (too large for git)
 processed.csv
 
-# Jupyter
-*.ipynb
 
 # Environment variables (never commit secrets)
 .env
